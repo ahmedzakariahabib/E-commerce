@@ -60,10 +60,10 @@ main {
 }
 .mainSection {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 380px;
   height: 400px;
   background-color: yellow;
   border-radius: 30px;

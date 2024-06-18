@@ -113,9 +113,9 @@ drawItem(JSON.parse(localStorage.getItem("items"))|| items);
 
 
 
-
   function saveItemData(id){
     localStorage.setItem("productsId",id)
+    localStorage.setItem("items",JSON.stringify(items))
     window.location='cartDetails.html'
   }
 
